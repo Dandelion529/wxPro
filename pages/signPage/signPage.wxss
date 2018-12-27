@@ -1,0 +1,61 @@
+/* pages/sign/sign.wxss */
+canvas {
+    margin-bottom: 20rpx;
+}
+
+.canvas {
+    width: 100%;
+    border: 1rpx solid #ddd;
+    box-sizing: border-box;
+}
+
+.canvas2 {
+    position: relative;
+    border-bottom: 1rpx solid #e2e2e2;
+    box-sizing: border-box;
+    width: 100%;
+    height: 835rpx;
+}
+
+.buttonBox {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 200rpx;
+    margin-bottom: 20rpx;
+    margin: auto;
+}
+
+.buttonBox button {
+    flex: 1;
+    border-radius: 40rpx;
+    background: #6EA8F7;
+    color: #fff;
+    margin:auto;
+}
+
+/** 签名文本框 **/
+.nameBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;   
+    transform: translate(-50%,-50%)
+}
+
+.buttonBoxs {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.buttonBoxs button {
+    justify-content: space-between;
+    width: 40%;
+    border-radius: 40rpx;
+    background: #6EA8F7;
+}
+
+button::after{
+    border: none;
+}

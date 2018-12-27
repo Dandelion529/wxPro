@@ -1,0 +1,18 @@
+<!--pages/sign/sign.wxml-->
+<view class='container' hidden='{{canshow2}}'>
+    <canvas style='width:{{canvasWidth}}px; height:{{canvasHeight}}px' disable-scroll="true" class="canvas2" id="canvas2" canvas-id="canvas2" disable-scroll="true">
+    </canvas>
+    <view class='buttonBox'>
+        <button bindtap='addName' class='addbutton' wx:if="{{signShow}}" >点我签名</button>
+        <button bindtap='clickMe2' class='addbutton' wx:if="{{!signShow}}" >生成合同</button>
+    </view>
+</view>
+
+<view class='nameBox' hidden='{{canshow}}'>
+    <canvas class="canvas" id="canvas" canvas-id="canvas" disable-scroll="true" bindtouchstart="canvasStart" bindtouchmove="canvasMove" bindtouchend="canvasEnd" touchcancel="canvasEnd" binderror="canvasIdErrorCallback">
+    </canvas>
+    <view class='buttonBoxs'>
+        <button style='border:1rpx solid #d1d1d1' bindtap='clickMe'>确认</button>
+        <button style='border:1rpx solid #d1d1d1' bindtap='cleardraw'>重写</button>
+    </view>
+</view>

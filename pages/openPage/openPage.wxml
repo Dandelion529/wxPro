@@ -1,0 +1,9 @@
+<!--pages/openPage/openPage.wxml-->
+<view class='openPage'>
+    <canvas canvas-id='pieCanvas' disable-scroll='true' class='canvas'></canvas>
+    <canvas canvas-id='rangCanvas' disable-scroll='true' class='canvas canvas2'></canvas>
+    <canvas canvas-id='lineCanvas' disable-scroll='true' class='canvas'></canvas>
+    <canvas canvas-id="columnCanvas" disable-scroll="true" class="canvas"></canvas>
+    <canvas canvas-id="areaCanvas" disable-scroll="true" class="canvas"></canvas>
+    <canvas canvas-id="radarCanvas" disable-scroll="true" class="canvas canvas2"></canvas>
+</view>

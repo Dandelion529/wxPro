@@ -1,0 +1,12 @@
+/* pages/openPage/openPage.wxss */
+.openPage {
+    height: 100%;
+}
+
+.canvas {
+    width: 750rpx;
+    height: 500rpx;
+}
+.canvas2 {
+    height: 400rpx;
+}
